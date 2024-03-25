@@ -1,0 +1,89 @@
+/* Custom styles for the new section */
+#intro {
+    background-image: url('https://images.unsplash.com/photo-1704449977740-dd4150af6774?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzMzYzOTV8&ixlib=rb-4.0.3&q=85');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 300px 0;
+}
+#intro h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#intro p {
+    font-size: 24px;
+}
+
+/* Custom styles for the About Me section */
+#about {
+    background-image: url('https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDI4NDN8&ixlib=rb-4.0.3&q=85');
+    background-size: cover;
+    background-position: center;
+    color: #FFf;
+    text-align: center;
+    padding: 200px 0;
+    opacity: 0; /* Initially set to transparent */
+    transition: opacity 1s ease-in-out; /* Transition effect */
+}
+
+#about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#about p {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+/* Custom styles for the Projects section */
+#projects {
+    background-image: url('https://images.unsplash.com/photo-1461301214746-1e109215d6d3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDE5MjJ8&ixlib=rb-4.0.3&q=85');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+    opacity: 0; /* Initially set to transparent */
+    transition: opacity 2s ease-in-out; /* Transition effect */
+}
+
+#projects h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#projects p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Custom styles for the Contact section */
+#contact {
+    background-image: url('');
+    background-size: 100% auto; /* Ensure the image covers the whole screen horizontally */
+    background-position: center;
+    color: #fff;
+    text-align: left;
+    padding: 100px 0;
+    opacity: 0; /* Initially set to transparent */
+    transition: opacity 1s ease-in-out; /* Transition effect */
+}
+
+#contact h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#contact p:last-child {
+    margin-bottom: 20px; /* Increase bottom margin for the last paragraph */
+}
